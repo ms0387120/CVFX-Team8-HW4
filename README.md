@@ -4,6 +4,8 @@
 
 ## 1. Sequence of moving-forward images in NTHU campus.
 
+![](https://imgur.com/phYG8d3.png)  
+![](https://imgur.com/b4LUjW8.png)
 ## 2. Show feature extraction and matching results between two images.
 
 ## 3. Perform image alignment and generate infinite zooming effect.
