@@ -25,7 +25,16 @@
 
 
 ## 4. Implement different feature extrators.
-
+#### Feature Extraction method2 : SIFT(Scale Invariant Feature Transform)
+#### 可以拆解為四個步驟：
+*  Detection of scale-space extrema :
+    搜索所有大小上的圖像位置。通過高斯微分函數來辨別可能的對於大小和旋轉不變的候選位置。
+*  Accurate keypoint localization :
+    在每個候選的位置上，通過一個fitting精細的模型來確定位置和大小。keypoint的選擇依據於它們的穩定程度。
+*  Orientation assignment：
+    基於圖像局部的梯度方向，assign給每個keypoint位置一個或多個Orientation。所有後面的對圖像數據的操作都相對於keypoint的方向、大小和位置進行變換，從而提供對於這些變換的不變性。
+*  Local image descriptor：
+    在每個keypoint周圍的鄰近之內，在選定的尺度上測量圖像局部的梯度。這些梯度被變換成一種descriptor，這種descriptor允許比較大的局部形狀的變形和光照變化。
 ## 5. Exploit creativity to add some image processing to enhance effect. 
 
 
