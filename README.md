@@ -19,8 +19,8 @@
      - ![](https://imgur.com/vD2vfeG.png)
 *  The orientation of the patch then simply is: 
      - ![](https://imgur.com/a91ybCI.png)
-
-
+#### Ｍatching results：ORB
+![](https://imgur.com/lz8eGO8.png)
 ## 3. Perform image alignment and generate infinite zooming effect.
 
 * method1： [ORB](https://youtu.be/oIadADF9t1k)
@@ -38,6 +38,10 @@
     基於圖像局部的梯度方向，assign給每個keypoint位置一個或多個Orientation。所有後面的對圖像數據的操作都相對於keypoint的方向、大小和位置進行變換，從而提供對於這些變換的不變性。
 *  Local image descriptor：
     在每個keypoint周圍的鄰近之內，在選定的尺度上測量圖像局部的梯度。這些梯度被變換成一種descriptor，這種descriptor允許比較大的局部形狀的變形和光照變化。
+#### Ｍatching results：SIFT
+![](https://imgur.com/I0HKimU.png)
+
+
 ## 5. Exploit creativity to add some image processing to enhance effect. 
 * method1： [ORB](https://youtu.be/ZsT8M1qJw-4)
 * method2： [SIFT](https://youtu.be/fduYaQfQGHY)
