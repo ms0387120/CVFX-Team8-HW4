@@ -23,6 +23,9 @@
 
 ## 3. Perform image alignment and generate infinite zooming effect.
 
+* method1： [ORB](https://youtu.be/oIadADF9t1k)
+* method2： [SIFT](https://youtu.be/vhURFM1Pxig)
+* method3： [SURF](https://youtu.be/fE8_7UKjBx8)
 
 ## 4. Implement different feature extrators.
 #### Feature Extraction method2 : SIFT(Scale Invariant Feature Transform)
@@ -36,7 +39,9 @@
 *  Local image descriptor：
     在每個keypoint周圍的鄰近之內，在選定的尺度上測量圖像局部的梯度。這些梯度被變換成一種descriptor，這種descriptor允許比較大的局部形狀的變形和光照變化。
 ## 5. Exploit creativity to add some image processing to enhance effect. 
-
+* method1： [ORB](https://youtu.be/ZsT8M1qJw-4)
+* method2： [SIFT](https://youtu.be/fduYaQfQGHY)
+* method3： [SURF](https://youtu.be/rTayIhhzbMQ)
 
 
 
