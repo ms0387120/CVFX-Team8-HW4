@@ -82,8 +82,7 @@
 SIFT 跟 SURF 採用Henssian矩陣獲取圖像局部最值還是十分穩定的，但是在求主方向階段太過於依賴局部區域像素的梯度方向，有可能使得找到的主方向不准確，後面的特徵向量提取以及匹配都嚴重依賴於主方向，即使不大偏差角度也可以造成後面特徵匹配的放大誤差，從而匹配不成功；另外圖像金字塔的層取得不足夠緊密也會使得尺度有誤差，後面的特徵向量提取同樣依賴相應的尺度，發明者在這個問題上的折中解決方法是取適量的層然後進行插值。 SIFT是一種只利用到灰度性質的算法，忽略了色彩信息
 
 #### Ｍatching results：SURF
-//在這裡幫我補圖片，感謝～
-
+![](/photo/SURF_matched_1.jpg)
 
 ## 5. Exploit creativity to add some image processing to enhance effect. 
 * method1： [ORB](https://youtu.be/ZsT8M1qJw-4)
