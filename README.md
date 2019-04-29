@@ -24,6 +24,7 @@
 ## 3. Perform image alignment and generate infinite zooming effect.
 
 * method1： [ORB](https://youtu.be/oIadADF9t1k)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/oIadADF9t1k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 * method2： [SIFT](https://youtu.be/vhURFM1Pxig)
 * method3： [SURF](https://youtu.be/fE8_7UKjBx8)
 * **效果： SIFT ＝ SURF > ORB**
