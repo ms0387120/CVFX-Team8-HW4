@@ -91,4 +91,6 @@ SIFT 跟 SURF 採用Henssian矩陣獲取圖像局部最值還是十分穩定的�
 
 * **效果： SURF > SIFT > ORB**
 
- 
+---
+參考資料：
+* [SURF](https://blog.csdn.net/shenziheng1/article/details/72579635)
